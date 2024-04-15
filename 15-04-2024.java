@@ -1,3 +1,5 @@
+class Solution
+{
     public static int[] countElements(int a[], int b[], int n, int query[], int q)
     {
         int mx=-1;
@@ -14,5 +16,6 @@
             else ans[i]=heap[a[query[i]]];
         }
         return ans;
+   
     }
-
+}
